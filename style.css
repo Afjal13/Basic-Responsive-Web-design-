@@ -1,0 +1,199 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: Aliceblue;
+	font-family: Verdana, Helvetica, Arial, Sans-serif;
+}
+
+
+/*container Styles*/
+
+.container {
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	background-color: white;
+}
+
+
+/*header and footer Styles*/
+
+header,
+footer {
+	padding: 20px;
+	color: white;
+	background-color: Green;
+	clear: left;
+	text-align: center;
+	clear: both;
+}
+
+header h1 {
+	font-size: 4vw;
+}
+
+
+/*mobile menu style*/
+
+.menu_mobile {
+	height: 40px;
+	display: none;
+	position: relative;
+	background: DarkRed;
+}
+
+.left_icon {
+	height: 38px;
+	width: 40px;
+	position: absolute;
+	left: 0px;
+	border: 1px solid #ccc;
+	color: #FFFFFF;
+	font-size: 30px;
+	font-weight: 800;
+	text-align: center;
+	line-height: 33px;
+	top: 1px;
+	cursor: pointer;
+	background-color: green;
+}
+
+.right_icon {
+	height: 38px;
+	width: 40px;
+	position: absolute;
+	right: 0px;
+	border: 1px solid #ccc;
+	color: #FFFFFF;
+	font-size: 30px;
+	font-weight: 800;
+	text-align: center;
+	line-height: 33px;
+	top: 1px;
+	cursor: pointer;
+	background-color: green;
+}
+
+.left_icon:hover,
+.right_icon:hover {
+	background-color: DarkRed;
+}
+
+
+/*Top Navigation Styles*/
+
+.Navigation {
+	list-style-type: none;
+	background-color: DarkRed;
+	height: 40px;
+}
+
+.Navigation li {
+	float: left;
+	height: 40px;
+}
+
+.Navigation li a {
+	text-decoration: none;
+	height: 40px;
+	display: block;
+	line-height: 40px;
+	color: white;
+	padding: 0 15px;
+	border-right: 1px solid Green;
+}
+
+.Navigation li:last-child a {
+	border: none;
+}
+
+.Navigation li a:hover,
+.Navigation li a.active {
+	color: green;
+	background-color: #00ff00;
+}
+
+
+/*Sidebar Styles*/
+
+aside {
+	float: left;
+	width: 320px;
+	margin: 0;
+	padding: 10px;
+	border-right: 1px solid #ddd;
+	background: #FFFFFF;
+}
+
+aside h3 {
+	border-bottom: 1px solid #ddd;
+	padding: 10px 0px;
+	color: #454545;
+	text-align: center;
+}
+
+aside ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+aside ul li {
+	padding: 0;
+	margin: 15px 10px;
+}
+
+aside ul li a {
+	text-decoration: none;
+	padding: 3px;
+	color: DarkGreen;
+}
+
+aside ul a:hover {
+	color: red;
+}
+
+
+/*Section Styles*/
+
+section {
+	padding: 1em 2em;
+	overflow: hidden;
+	clear: right;
+}
+
+section h1 {
+	color: #454545;
+	padding-bottom: 12px;
+}
+
+section #image {
+	float: left;
+	width: 350px;
+	height: 195px;
+	margin: 0px 10px 0px 0px;
+	border: 2px solid Green;
+}
+
+section #image img {
+	width: 100%;
+	height: 100%;
+}
+
+section p {
+	color: #343434;
+	line-height: 28px;
+	font-size: 16px;
+	text-align: justify;
+}
+
+section #read_more {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+section #read_more:hover {
+	color:red;
+}

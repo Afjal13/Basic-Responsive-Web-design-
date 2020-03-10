@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title> HTML  Responsive </title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="media.css">
+</head>
+<body>
+<div class="container">
+<!--Header-->
+	<header>
+	  <h1>Afjal 360<sup>0</sup>-The IT Plex </h1>
+	</header>
+
+<!--For Tablets-and-Mobiles-->
+<div class="menu_mobile">
+  <span title="Visit By Places" class="left_icon" onclick="toggleVisibility('left_sidebar');">☰</span>
+  <span title="Visit By District"  class="right_icon" onclick="toggleVisibility('top_bar');">☰</span>
+</div>
+
+<!--Navigation-->
+ <ul class="Navigation" id="top_bar">
+    <li><a class="active" href="#">Home</a></li>
+    <li><a href="#">Portflio</a></li>
+    <li><a href="#">LifeStyle</a></li>
+    <li><a href="#">Poem</a></li>
+    <li><a href="#">Web Design & Development</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Programming</a></li>
+    <li class="hide853"><a href="#">Software Engineering</a></li>
+    <li class="hide853"><a href="#">Freelancing</a></li>
+ </ul>
+
+<!--Sidebar-->
+ <aside id="left_sidebar">
+  <h3>Some Senario Of my Dhaka Trip</h3>
+	<ul>
+	    <li><a href="#"></a>Travels</li>
+	    <li><a href="#">Poem</a></li>
+	    <li><a href="#">Hobby</a></li>
+	    <li><a href="#">Preferable Fruits </a></li>
+	    <li><a href="#">My Passion</a></li>
+	    <li><a href="#">Leadership</a></li>
+	    <li><a href="#">Career</a></li>
+	    <li><a href="#">Favourite Colors</a></li>
+	    <li><a href="#">Personality</a></li>
+	    <li><a href="#">Designation</a></li>
+	    <li><a href="#">Photo Gallery</a></li>
+	</ul>
+ </aside>
+
+<!--Main Section-->
+ <section>
+   <h1>Dhaka</h1>
+      <div id="image"><img src="Hatirjheel.jpg" alt="Dhaka Hatirjheel"/></div>
+	<p>
+	The capital of Bangladesh is Dhaka with its exciting history and rich culture, known the world over as the city of mosques and muslin; it has attracted travelers from far and nearer throughout in all the ages. It has a history dating back to earliest time. But the exact  date of its foundation is not known.<span class="mobiles"> However, according to recorded history it was founded in 1608 A.D. as the seat of the imperial Mughal Viceroy of Bengal. Dhaka as the capital of Bangladesh has grown into a busy city of about eleven million people with an area of about 815 sq. km. Having a happy blending of old and new architectural trends, Dhaka has been developing fast as a modern city and is throbbing with activities in all spheres of life. It is the centre of industrial commercial, cultural, educational and political activities for Bangladesh. At Tongi, Tejgaon, Demra, Pagla, kanchpur, the industrial establishments turn - out daily necessities. Motijheel is the main commercial area of the city. <span class="tablets">Dhaka's major waterfront Sadarghat is on the bank of the river Buriganga and is crowded with all kinds of river craft, batches, country boats, motor launches, paddle-steamers, fishermen's boats all bustling with activity. Colourful rickshaws (tricycle) on the city streets are common attractions for the visitors.</span>... <a href="#" id="read_more">Read More</a></p>
+ </section>
+
+ <!--Footer-->
+ <footer>© www.afjal360-theitplex.com</footer>
+</div><!--end of container-->
+<script type="text/javascript" src="show_hide.js"></script>
+</body>
+</html>
